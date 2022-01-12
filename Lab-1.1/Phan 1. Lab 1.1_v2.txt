@@ -1,0 +1,26 @@
+LẬP TRÌNH C TRONG LINUX
+Lab 1.1. 
+1: Tạo mảng b chỉ chứa giá trị lẻ từ mảng a
+2: Tạo mảng b chỉ chứa giá trị âm từ mảng a
+3: Tạo mảng b sao cho b[i] = tổng các phần tử lân cận với a[i] trong mảng a
+4: Tạo mảng b chỉ chứa số nguyên tố từ mảng a
+5: Viết hàm tìm giá trị lớn nhất trong ma trận số thực
+6: Viết hàm kiểm tra trong ma trận số nguyên có tồn tại giá trị chẵn nhỏ hơn 2015?
+7: Viết hàm đếm số lượng số nguyên tố trong ma trận số nguyên
+8: Viết hàm tính tổng các giá trị âm trong ma trận số thực
+9: Viết hàm sắp xếp ma trận các số thực tăng dần từ trên xuống dưới và từ trái sang phải
+Bổ sung:
+10. Tính độ dài chuỗi
+11. Đảo các kí tự của chuỗi
+12. Đếm số từ trong 1 chuỗi
+13. Remove space trong chuỗi
+14. Tìm vị trí kí tự xuất hiện đầu tiên trong chuỗi
+15. Tìm vị trí xuất hiện của kí tự c trong chuỗi s
+16. Tìm chuỗi con trong 1 chuỗi
+17. Kiểm tra tính đối xứng của chuỗi
+18. Thay thế kí tự trong chuỗi
+19. Đổi kí tự đầu tiên của mỗi từ thành chữ in hoa
+20. Đếm số lần xuất hiện của kí tự c trong chuỗi s
+21. Thay thế kí tự bất kì trong chuỗi bằng kí tự mới
+
+22. Quản lý sinh viên bằng struct
