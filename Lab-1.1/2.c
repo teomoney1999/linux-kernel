@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "helper.h"
 
-
 void getNegativeNumberInArray(int arr[], size_t arrLength) {
     int oddNumbers[arrLength];
     int idx = 0;
@@ -15,7 +14,7 @@ void getNegativeNumberInArray(int arr[], size_t arrLength) {
         }
     }
     // printf("Length of odd array: %d \n", idx);
-    printFunc(oddNumbers, idx);
+    printArrayFunc(oddNumbers, idx);
 }
 
 int main() {

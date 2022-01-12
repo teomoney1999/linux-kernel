@@ -10,6 +10,43 @@
  * This is a function declaration.
  * It tells the compiler that the function exists somewhere.
  */
-void printFunc(int arr[], size_t length);
+void printArrayFunc(int arr[], size_t length) {
+    for (int i=0; i<length; i++) {
+        printf(" %d", arr[i]);
+    }
+    printf("\n");
+}
 
-// #endif /* FOO_DOT_H */
+void printFloatArr(float arr[], size_t length) {
+    for (int i=0; i<length; i++) {
+        printf(" %.2f", arr[i]);
+    }
+    printf("\n");
+}
+
+void printMatrix(float arr[][100], int row, int col) {
+    for(int i = 0; i < row; i++) {
+        for(int j = 0; j < col; j++) {
+            printf("%f\t", arr[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int isPrime(int num) {
+    int flag = 0;
+    for (int j=2; j<(int) (num/2)+1; j++) {
+        if (num % j == 0) {
+            // is a prime number
+            flag = 1;
+            break;
+        }
+    }
+    return flag;
+}
+
+int isEven(int num) {
+    if (num % 2 == 0 ) 
+        return 1;
+    return 0;
+}
